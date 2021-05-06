@@ -1,0 +1,16 @@
+{
+  "name": "generator-puying",
+  "version": "1.0.1",
+  "description": "puying project scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["yeoman-generator"],
+  "author": "corazon",
+  "license": "ISC",
+  "repository": "FriendsA/puying-scaffold",
+  "dependencies": {
+    "yeoman-generator": "^4.0.1"
+  }
+}

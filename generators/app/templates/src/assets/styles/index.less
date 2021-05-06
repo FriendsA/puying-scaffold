@@ -1,0 +1,54 @@
+:root {
+    --color: #333;
+}
+
+body {
+    color      : var(--color);
+    font-family: PingFangSC-Semibold;
+}
+
+.top-component {
+    background-color: #001529;
+    padding         : 10px;
+    display         : flex;
+    justify-content : flex-end;
+}
+
+.left-component .top-logo {
+    height         : 40px;
+    margin         : 10px 20px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #fff;
+    background     : #002140;
+}
+
+.lazy-loading {
+    height         : 100vh;
+    width          : 100vw;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.login-page {
+    display        : flex;
+    justify-content: center;
+    margin-top     : 30vh;
+}
+
+.login-page h2 {
+    color  : @primary-color;
+    padding: 20px;
+}
+
+.login-page>div {
+    text-align: center;
+}
+
+.callback-page {
+    text-align : center;
+    padding-top: 30vh;
+    color      : @primary-color;
+}
